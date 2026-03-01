@@ -1,0 +1,61 @@
+{
+  "model_version": "1.0.0",
+  "trained_at": "2026-03-01T05:22:01.721818+00:00",
+  "feature_names": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "SeniorCitizen",
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "PaperlessBilling",
+    "MultipleLines_No phone service",
+    "MultipleLines_Yes",
+    "InternetService_Fiber optic",
+    "InternetService_No",
+    "OnlineSecurity_No internet service",
+    "OnlineSecurity_Yes",
+    "OnlineBackup_No internet service",
+    "OnlineBackup_Yes",
+    "DeviceProtection_No internet service",
+    "DeviceProtection_Yes",
+    "TechSupport_No internet service",
+    "TechSupport_Yes",
+    "StreamingTV_No internet service",
+    "StreamingTV_Yes",
+    "StreamingMovies_No internet service",
+    "StreamingMovies_Yes",
+    "Contract_One year",
+    "Contract_Two year",
+    "PaymentMethod_Credit card (automatic)",
+    "PaymentMethod_Electronic check",
+    "PaymentMethod_Mailed check"
+  ],
+  "metrics": {
+    "auc_roc": 0.8457929680436074,
+    "f1_score": 0.6344676180021954,
+    "accuracy": 0.7636621717530163,
+    "precision": 0.5381750465549349,
+    "recall": 0.7727272727272727,
+    "confusion_matrix": [
+      [
+        787,
+        248
+      ],
+      [
+        85,
+        289
+      ]
+    ],
+    "tn": 787,
+    "fp": 248,
+    "fn": 85,
+    "tp": 289,
+    "best_iteration": 23,
+    "threshold": 0.53
+  },
+  "xgboost_version": "3.2.0",
+  "sklearn_version": "1.7.2"
+}
